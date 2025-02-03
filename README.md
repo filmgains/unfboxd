@@ -25,7 +25,12 @@ If you want to run the project locally, ensure you have the following installed:
    ```sh
    netlify dev
    ```
-
+   
+## Technologies
+- HTML, CSS, JavaScript
+- Netlify Functions
+- Axios and Cheerio for web scraping
+  
 ## Live Demo
 [View Live Demo](https://unfboxd.netlify.app)
 
