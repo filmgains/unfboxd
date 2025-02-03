@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#results {
+  margin-top: 1rem;
+  text-align: left;
+}
+
+/* Scrollable container for the results */
+.results-container {
+  max-height: 300px; /* Adjust height as needed */
+  overflow-y: auto;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border: 1px solid var(--text-muted);
+  border-radius: 0.5rem;
+  background: var(--card-bg);
+}
+
+/* Style for individual list items */
+.results-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.results-container li {
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--text-muted);
+}
+
+.results-container li:last-child {
+  border-bottom: none;
+}
+
+.results-container a {
+  color: var(--primary);
+  text-decoration: none;
+  display: block; /* Make the entire list item clickable */
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.results-container a:hover {
+  background: rgba(56, 189, 248, 0.1); /* Light background on hover */
+  color: var(--secondary);
+}
